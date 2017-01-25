@@ -14,7 +14,7 @@ public class SingleOperation : BasicOperation {
     
     fileprivate var block: OperationBlock
     
-    init(block: @escaping OperationBlock) {
+    public init(block: @escaping OperationBlock) {
         self.block = block
     }
 

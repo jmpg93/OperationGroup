@@ -9,10 +9,10 @@
 import Foundation
 
 public class OperationGroup : BasicOperation {
-
+    
     private let queue: OperationQueue
     
-    var maxConcurrentOperationCount: Int {
+    public var maxConcurrentOperationCount: Int {
         get {
             return queue.maxConcurrentOperationCount
         }
